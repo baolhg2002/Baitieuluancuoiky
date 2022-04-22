@@ -97,17 +97,17 @@ public class Main {
     }
 
     public static void danhSachMoi() throws ParseException{
-        HangHoa spThucPham1 = new HangThucPham("TP01" ,"Banh Chocopie", 1, 2_0, sDF.parse("29/01/2022") , sDF.parse("29/01/2022") , "ORION VINA");
-        HangHoa spThucPham2 = new HangThucPham("TP02" ,"Banh Patie", 20, 1_0 , sDF.parse("10/08/2021") , sDF.parse("10/08/2022"), "FOOD VINA");
-        HangHoa spThucPham3 = new HangThucPham("TP03","Banh Solite", 5, 1_0 , sDF.parse("02/12/2021"), sDF.parse("20/04/2023") , "KINH DO");
-        HangHoa spDienMay1 = new HangDienMay("DM01", "May Giat", 100_0, 20000_0, 5, 5_4);
-        HangHoa spDienMay2 = new HangDienMay("DM02", "May Lanh", 200_0, 50000_0, 12, 24_0);
-        HangHoa spDienMay3 = new HangDienMay("DM03", "Tu lanh", 300_0, 4000_0, 12, 20_0);
-        HangHoa spSanhSu1 = new HangSanhSu("SS01", "Chen", 100_0, 10_0, "VNCRO", sDF.parse("20/02/2022"));
-        HangHoa spSanhSu2 = new HangSanhSu("SS02", "To", 20_0, 20_0, "VNCRO", sDF.parse("19/01/2022"));
-        HangHoa spSanhSu3 = new HangSanhSu("SS03", "To lon", 200_0, 50_0, "VNCRO", sDF.parse("30/03/2022"));
-        HangHoa spSanhSu4 = new HangSanhSu("SS04", "To lon hon", 150_0, 10_0, "VNCRO", sDF.parse("12/12/2021"));
-
+        HangHoa spThucPham1 = new HangThucPham("TP01" ,"Banh mi ngot", 5, 10000, sDF.parse("19/02/2022") , sDF.parse("29/01/2022") , "ORION VINA");
+        HangHoa spThucPham2 = new HangThucPham("TP02" ,"Banh Lays", 20, 16000 , sDF.parse("17/12/2021") , sDF.parse("10/08/2022"), "FOOD VINA");
+        HangHoa spThucPham3 = new HangThucPham("TP03","Keo Mashmalo", 9, 28000, sDF.parse("08/11/2021"), sDF.parse("20/04/2023") , "KINH DO");
+        HangHoa spDienMay1 = new HangDienMay("DM01", "May giat", 85, 8500000, 5, 5_4);
+        HangHoa spDienMay2 = new HangDienMay("DM02", "Dieu hoa", 76, 12000000, 12, 24_0);
+        HangHoa spDienMay3 = new HangDienMay("DM03", "TV", 30, 35000000, 12, 20_0);
+        HangHoa spSanhSu1 = new HangSanhSu("SS01", "Chen", 105, 5000, "Hai Long", sDF.parse("20/11/2021"));
+        HangHoa spSanhSu2 = new HangSanhSu("SS02", "To", 20, 8000, "VNCRO", sDF.parse("01/01/2022"));
+        HangHoa spSanhSu3 = new HangSanhSu("SS03", "Dia", 257, 7000, "Hai Long", sDF.parse("30/02/2022"));
+        HangHoa spSanhSu4 = new HangSanhSu("SS04", "Ly", 15, 10000, "Minh Long", sDF.parse("12/12/2021"));
+       
         danhSach.them(spDienMay1);  danhSach.them(spDienMay2);
         danhSach.them(spDienMay3);  danhSach.them(spSanhSu1);
         danhSach.them(spSanhSu2);   danhSach.them(spSanhSu3);
